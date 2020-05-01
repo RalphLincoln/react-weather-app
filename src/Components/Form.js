@@ -20,7 +20,7 @@ export default class Form extends Component {
                 <form onSubmit={this.props.loadWeather}>
                     <div className="row">
                         <div className="col-md-3 offset-md-2">
-                            <input type="text" name='city' placeholder='city' autoComplete='off' autoCapitalize='on' className="form-control" />
+                            <input type="text" name='city' placeholder='city or state capital' autoComplete='off' className="form-control" />
                         </div>
 
                         <div className="col-md-3">

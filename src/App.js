@@ -89,7 +89,6 @@ export default class App extends Component {
       const api_call = await fetch(`//api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_key}`);
 
       const response = await api_call.json();
-      console.log(response)
 
       this.setState({
         city: response.name,
