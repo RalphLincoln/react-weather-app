@@ -28,7 +28,7 @@ export default class Form extends Component {
                         </div>
 
                         <div className="col-md-3 mt-md-0 py-2 text-md-left">
-                            <button className="btn btn-outline-dark">Get Weather</button>
+                            <button type='submit' className="btn btn-outline-dark">Get Weather</button>
                         </div>
                     </div>
                 </form>
